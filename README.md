@@ -169,8 +169,6 @@ Jean-Michel
 
 **Architecture • Documentation • Assistance au développement**
 
-ChatGPT
-
 ---
 
 # ❤️ Remerciements
