@@ -36,8 +36,38 @@ print("Création du classeur Excel...")
 # Création du classeur
 workbook = Workbook()
 
-# Sauvegarde dans le dossier Database
-workbook.save("Database/SCCP_Master_Database_v0.1.xlsx")
+# ==========================================
+# Création des feuilles
+# ==========================================
 
-print("Classeur créé avec succès !")
-print("Base de données enregistrée.")
+print("Création des feuilles...")
+
+# Renommer la première feuille
+sheet = workbook.active
+sheet.title = "00_PROJET"
+
+# Liste des autres feuilles
+feuilles = [
+    "01_COMMANDES",
+    "02_CATEGORIES",
+    "03_PERIPHERIQUES",
+    "04_TRADUCTIONS",
+    "05_PROFILS",
+    "06_STREAMDECK",
+    "07_ICONES",
+    "08_TESTS",
+    "09_CHANGELOG"
+]
+
+# Création automatique
+for nom in feuilles:
+    workbook.create_sheet(title=nom)
+
+print("Toutes les feuilles ont été créées.")
+
+# Sauvegarde dans le dossier Database
+workbook.save("database/SCCP_Master_Database_v0.1.xlsx")
+
+print()
+print("Base de données créée avec succès !")
+print("Fin du programme.")
