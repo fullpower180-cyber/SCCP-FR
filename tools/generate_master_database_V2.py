@@ -74,7 +74,6 @@ def creer_feuilles(workbook):
 
     print("Toutes les feuilles ont été créées.")
 
-
 def creer_entetes(sheet, colonnes):
     """Création des en-têtes avec mise en forme SCCP."""
 
@@ -98,6 +97,31 @@ def creer_entetes(sheet, colonnes):
 
     print(f"En-têtes créés : {sheet.title}")
 
+
+
+from openpyxl.utils import get_column_letter
+
+def ajuster_largeur_colonnes(sheet):
+    """Ajuste automatiquement la largeur des colonnes."""
+
+    for colonne in sheet.columns:
+
+        longueur_max = 0
+        lettre = get_column_letter(colonne[0].column)
+
+        for cellule in colonne:
+
+            if cellule.value is not None:
+                longueur = len(str(cellule.value))
+
+                if longueur > longueur_max:
+                    longueur_max = longueur
+
+        sheet.column_dimensions[lettre].width = longueur_max + 3
+
+    print(f"Largeur des colonnes ajustée : {sheet.title}")
+
+
 # ==========================================================
 # PROGRAMME PRINCIPAL
 # ==========================================================
@@ -120,6 +144,7 @@ creer_feuilles(workbook)
 feuille_commandes = workbook["01_COMMANDES"]
 
 creer_entetes(feuille_commandes, COLONNES_COMMANDES)
+ajuster_largeur_colonnes(feuille_commandes)
 
 print(feuille_commandes["A1"].value)
 print(feuille_commandes["B1"].value)
