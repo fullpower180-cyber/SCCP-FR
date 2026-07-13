@@ -110,9 +110,150 @@ Premier fichier Excel généré automatiquement.
 
 # 🚀 Prochaine mission
 
-Créer automatiquement :
 
-- les feuilles du classeur
-- les colonnes
-- les couleurs
-- le tableau de bord
+# 📚 Parcours d'apprentissage
+
+## 🐍 Python
+
+### Niveau 1 ✅
+
+- Installation de Python
+- Installation de VS Code
+- Installation de l'extension Python
+- Installation d'OpenPyXL
+- Premier script Python
+- Premier programme exécuté
+- Premier fichier Excel généré
+
+---
+
+### Niveau 2 ✅
+
+Compétences acquises :
+
+- Création de fonctions Python
+- Utilisation des listes
+- Utilisation des boucles `for`
+- Création automatique d'un classeur Excel
+- Création automatique des feuilles
+- Création automatique des en-têtes
+- Première mise en forme Excel
+- Première revue de code
+- Premier débogage
+
+---
+
+### Niveau 3 🚧 En cours
+
+Objectif :
+
+Créer automatiquement la SCCP Master Database complète.
+
+Travaux prévus :
+
+- Ajustement automatique des colonnes
+- Couleurs SCCP
+- Styles professionnels
+- Listes déroulantes
+- Validation des données
+
+---
+
+# 📖 Journal de développement
+
+## Jour 1
+
+- Installation de GitHub Desktop
+- Installation de VS Code
+- Installation de Python
+- Création du dépôt GitHub
+
+---
+
+## Jour 2
+
+- Création du README
+- Création du CHANGELOG
+- Création du DESIGN_SYSTEM
+- Création de la structure SCCP
+
+---
+
+## Jour 3
+
+Premier programme Python.
+
+Création automatique du premier fichier Excel.
+
+---
+
+## Jour 4
+
+Création automatique des feuilles de la SCCP Master Database.
+
+Découverte des fonctions Python.
+
+---
+
+## Jour 5
+
+Création automatique des en-têtes.
+
+Première mise en forme Excel.
+
+Découverte des styles OpenPyXL.
+
+Première revue de code.
+
+Première séance de débogage.
+
+Leçon importante :
+
+> Toujours enregistrer son travail avant d'exécuter le programme (Ctrl + S).
+
+---
+
+# 🏆 Badges obtenus
+
+✅ GitHub Foundation
+
+✅ Markdown Foundation
+
+✅ Python Niveau 1
+
+✅ Python Niveau 2
+
+✅ OpenPyXL Foundation
+
+✅ Premier générateur Excel
+
+✅ Première revue de code
+
+✅ Premier bug corrigé
+
+---
+
+# 🚀 Feuille de route
+
+## Version 0.2.0
+
+- [x] Génération du classeur
+- [x] Génération des feuilles
+- [x] Génération des en-têtes
+- [x] Mise en forme des en-têtes
+- [ ] Ajustement automatique des colonnes
+- [ ] Mise en forme avancée
+- [ ] Tableau de bord
+- [ ] Validation des données
+
+---
+
+# 💬 Citation du projet
+
+> **« Apprendre, construire et partager pour rendre Star Citizen plus accessible. »**
+
+---
+
+# 🎯 Objectif personnel
+
+Comprendre chaque ligne de code développée dans SCCP-FR afin de devenir autonome sur les futures évolutions du projet.

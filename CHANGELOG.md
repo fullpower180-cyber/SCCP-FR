@@ -1,155 +1,118 @@
-# 📜 CHANGELOG
+# Changelog
 
-Toutes les évolutions importantes du projet **SCCP-FR** sont documentées dans ce fichier.
+Toutes les modifications importantes du projet SCCP-FR seront documentées dans ce fichier.
 
-Le projet suit le principe du **Versioning Sémantique (SemVer)**.
-
----
-
-# [0.0.1] - Genesis
-
-**Date : 11/07/2026**
-
-## 🎉 Création du projet
-
-### Ajouts
-
-* Création du dépôt GitHub **SCCP-FR**
-* Installation de GitHub Desktop
-* Installation de Visual Studio Code
-* Initialisation du projet
-* Création du README
-* Création du CHANGELOG
-* Définition des objectifs du projet
-* Définition de la philosophie :
-
-  * Gratuit
-  * Open Source
-  * Documentation en français
-  * Projet communautaire
-* Choix de GitHub comme plateforme de développement
+Le format est inspiré de **Keep a Changelog**.
+Le projet suit le principe du **Semantic Versioning**.
 
 ---
 
-# [0.1.0] - Foundation
+# [0.2.0] - En développement
 
-**Statut : En cours**
-
-## Prévu
+## ✨ Ajouté
 
 ### Documentation
 
-* Architecture du projet
-* Roadmap
-* Guide d'installation
-* Guide utilisateur
-* Design System
+- Création du document `ACADEMY.md`
+- Mise en place de la méthode SCCP Academy
+- Documentation du parcours d'apprentissage
+- Création de la progression par niveaux Python
 
-### Développement
+### Développement Python
 
-* Arborescence officielle
-* Base de données des commandes
-* Convention de nommage
-* Structure des profils Stream Deck
+- Création du premier générateur Python
+- Création automatique du classeur Excel
+- Création automatique des feuilles de la Master Database
+- Création automatique des en-têtes de la feuille `01_COMMANDES`
+- Première mise en forme automatique des en-têtes
+- Utilisation des styles OpenPyXL
+- Première fonction Python réutilisable
+- Première constante Python (`COLONNES_COMMANDES`)
 
-### Graphisme
+### Architecture
 
-* Logo SCCP-FR
-* Bannière GitHub
-* Charte graphique
-* Palette officielle
-* Gabarit des icônes
+- Séparation du programme en :
+  - Imports
+  - Constantes
+  - Fonctions
+  - Programme principal
+- Début de la standardisation du code Python
+- Création de la version de développement `generate_master_database_v2.py`
 
----
+### Gestion de projet
 
-# [0.2.0] - Cockpit
-
-## Prévu
-
-### Interface
-
-* Première page Cockpit
-* Navigation entre les pages
-* Ergonomie générale
-
-### Icônes
-
-Création des 20 premières icônes :
-
-* SCFR-001 — Prêt au vol
-* SCFR-002 — Énergie
-* SCFR-003 — Moteurs
-* SCFR-004 — Train d'atterrissage
-* SCFR-005 — VTOL
-* SCFR-006 — Éclairages
-* SCFR-007 — Portes
-* SCFR-008 — Rampe
-* SCFR-009 — Demande d'atterrissage
-* SCFR-010 — Régulateur de vitesse
-* SCFR-011 — Couplé
-* SCFR-012 — Découplé
-* SCFR-013 — Vitesse +
-* SCFR-014 — Vitesse -
-* SCFR-015 — Ping
-* SCFR-016 — Scan
-* SCFR-017 — mobiGlas
-* SCFR-018 — Carte stellaire
-* SCFR-019 — Quantum
-* SCFR-020 — Moteur quantique
+- Mise en place des Sprints de développement
+- Définition des objectifs par Sprint
+- Début des revues de code
+- Mise en place d'une méthode de validation après chaque Sprint
 
 ---
 
-# [0.3.0] - Combat
+## 🔄 Modifié
 
-## Prévu
+### Générateur Python
 
-* Page Combat
-* Icônes Combat
-* Capacitors
-* Boucliers
-* Missiles
-* Flares
-* Noise
-* Ciblage
+- Réorganisation complète du script
+- Amélioration de la lisibilité
+- Centralisation des constantes
+- Utilisation des fonctions Python
+- Simplification du code de génération
 
----
+### Méthode de développement
 
-# [0.4.0] - Cargo
-
-## Prévu
-
-* Cargo
-* Navigation
-* Véhicules
-* Rampe
-* Tractor Beam
-* Cargo Grid
+- Adoption d'un développement incrémental
+- Validation après chaque fonctionnalité
+- Début des revues de code
 
 ---
 
-# [0.5.0] - Mining & Salvage
+## 🛠️ Corrigé
 
-## Prévu
+- Correction de l'ordre d'exécution du programme
+- Correction des appels de fonctions
+- Correction de l'utilisation des variables
+- Correction de la génération des en-têtes
+- Correction de la structure du programme
+- Correction de plusieurs erreurs liées aux tests
 
-* Mining
-* Salvage
-* Laser
-* Scanner
-* Tractor Beam
+### Débogage
+
+- Identification d'erreurs d'exécution
+- Correction d'un lancement de la mauvaise version du programme
+- Correction de plusieurs oublis d'enregistrement avant exécution
+- Mise en place d'une méthode de diagnostic
+- Création de la première checklist développeur
 
 ---
 
-# [1.0.0] - Première version publique
+# [0.1.0] - Fondation du projet
 
-## Objectif
+## ✨ Ajouté
 
-Publication officielle de **SCCP-FR**.
+### Initialisation
 
-Contenu prévu :
+- Création du dépôt GitHub
+- Création du README
+- Création du CHANGELOG
+- Création du DESIGN_SYSTEM
+- Création de la structure du projet
 
-* Profil Stream Deck XL
-* Bibliothèque d'icônes HD
-* Documentation complète
-* Guide d'installation
-* Guide utilisateur
-* Première version stable
+### Environnement
+
+- Installation de Python
+- Installation de VS Code
+- Installation de GitHub Desktop
+- Installation d'OpenPyXL
+
+### Projet
+
+- Création des dossiers :
+  - assets
+  - Database
+  - docs
+  - profiles
+  - tools
+  - xml
+
+- Premier programme Python exécuté avec succès
+- Première génération d'un fichier Excel
